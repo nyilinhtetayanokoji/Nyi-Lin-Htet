@@ -1,0 +1,254 @@
+body{
+	background-color: rgb(66, 65, 77) ;
+}
+/*navigation*/
+.header{
+	display: table;
+	width: 1366px;
+	height: 30px;
+	margin: -8px;
+	background-color: black;
+	position: fixed;
+}
+a{
+	color: white;
+}
+a:link{
+	color: white;
+	padding: 40px;	
+	text-decoration: none;		
+}
+a:hover{
+	color: rgb(0, 162, 232);
+}
+
+.row{
+	padding-top: 5px;
+	text-align: center;
+}
+
+/*home*/
+.web{
+	position: relative;
+	margin-top:20px;
+	width: 1350px;
+	height: 550px;	
+	margin-left: -10px;	
+}
+.imgtxt{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 1.8em;
+	color: black;
+}
+.hello{
+	padding-left: 1px;
+}
+.developer{
+	padding-left: 25px;
+}
+em{
+	color: rgb(224, 47, 27);
+	font-size: 1.8em;
+}
+
+/*about*/
+
+.content{
+	color: rgb(153, 217, 234);
+	text-align: center;
+	font-size: 2em;
+}
+.about{
+	display: table;
+	width: 50%;
+	height: 200px;
+	border: 1px solid black;
+	margin-left: 350px;
+	margin-top: 25px;
+}
+.phototxt{
+
+	width: 50%;
+	height: 200px;
+	border: 1px solid rgb(153, 217, 234);
+	margin-left: 25%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#image{	
+	width: 25%;
+	height: 10%;
+	padding-left: 25px;
+	padding-top: 20px;
+	float: left;
+}
+.txt{
+
+	font-size: 1.2em;
+	color: rgb(99, 105, 190);
+	text-align: center;
+	padding-top: 25px;
+}
+.bar{
+	background-color: gray;
+	width: 400px;	
+}
+.progress1{
+	background-color: rgb(153, 217, 234);
+	width: 80%;
+	height: 10px;
+}
+.text{
+	color: rgb(99, 105, 190);
+}
+.percent{
+	color: rgb(99, 105, 190);
+	font-size: 1.2em;
+
+}
+.container{
+	display: table;
+
+}
+.rowtxt{
+	display: table-row;
+}
+.cell{
+	display: table-cell;
+}
+.remainder{
+	width: 22%;
+	text-align: left;
+}
+.barprogress{
+	padding: 20px;
+}
+.progress2{
+	background-color: rgb(153, 217, 234);
+	width: 80%;
+	height: 10px;
+}
+.progress3{
+	background-color: rgb(153, 217, 234);
+	width: 66%;
+	height: 10px;
+}
+.progress4{
+	background-color: rgb(153, 217, 234);
+	width: 60%;
+	height: 10px;
+}
+.room{
+	display: table;
+	width: 80%;	
+	margin-left: 175px;
+}
+.rowbar{
+	display: table-row;
+}
+.boxbar{
+	display: table-cell;
+	padding: 25px;
+}
+
+/*Portfolio*/
+
+.portfolio{
+	color: rgb(60, 181, 102);
+	text-align: center;
+	font-size: 2em;
+	padding: 25px;
+}
+
+.sheet{
+	display: table;
+	width: 70%;	
+	margin-left: 140px;	
+	border-spacing: 15px;
+}
+.sheetrow{
+	display: table-row;
+}
+.portimg{
+	display: table-cell;
+	padding: 50px;
+	border: 1px solid rgb(60, 181, 102);
+
+}
+#portimage{
+	width: 200px;
+	height: 225px;
+}
+#portimage1{
+	width: 230px;
+	height: 225px;
+}
+
+/*Contant*/
+
+.contant{
+	color: rgb(255, 174, 201);
+	text-align: center;
+	font-size: 2em;
+	padding: 25px;
+}
+input{
+	vertical-align: middle;
+	width: 400px;
+	height: 35px;
+	background-color:rgb(51, 51, 51) ;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid white;
+	font-size: 1.3em;
+	color: rgb(255, 174, 201);
+	margin: 10px;
+	outline: none;
+}
+#yourmessage{
+	width: 827px;
+	margin-left: 40px;
+	
+}
+.input{
+	display: table;
+	margin-left: 30px;
+}
+.inputrow{
+	display: table-row;
+
+}
+.inputcell{
+	display: table-cell;	
+}
+.submit{
+	font-size: 1.2em;
+	background-color: rgb(51, 51, 51);
+	border: 1px solid white;
+	margin-left: 200px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	color: white;
+	padding: 15px;
+}
+
+#iconimg{
+	width: 45px;
+	height: 45px;
+	padding-right: 25px;
+}
+.iconimg{
+	margin-left: 380px;
+}
+.gmail{
+	padding: 25px;
+	padding-left: 600px;
+}
+
+
+
+
